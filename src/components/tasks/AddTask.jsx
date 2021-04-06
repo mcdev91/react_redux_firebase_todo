@@ -33,7 +33,8 @@ class AddTask extends Component {
         >
           <legend> </legend>
           <div className="form-group">
-            <label htmlFor="task">Add Task</label>
+            <label htmlFor="task"
+            >Add Task</label>
             <input
               type="text"
               className="form-control"
