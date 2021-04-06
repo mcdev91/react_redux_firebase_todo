@@ -26,7 +26,7 @@ const Task = ({ task, removeTask, toggleChecked }) => {
           <span
             className="material-icons text-danger"
             style={{
-              cursor: "pointer",
+              cursor: "pointer"
             }}
             onClick={() => handleRemove(task)}
           >
