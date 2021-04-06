@@ -5,7 +5,10 @@ const Check = ({ checked, onClick }) => {
     return (
       <span
         className="material-icons text-success"
-        style={{ cursor: "pointer" }}
+        style={{
+          cursor: "pointer",
+          outline: "none"
+        }}
         onClick={onClick}
       >
         check_circle_outline

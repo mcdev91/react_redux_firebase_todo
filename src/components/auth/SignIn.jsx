@@ -37,7 +37,7 @@ class SignIn extends Component {
             <h4>Sign In</h4>
           </legend>
           <div className="form-group">
-            <label htmlFor="email">Enter Email</label>
+            <label htmlFor="email">Email</label>
             <input
               type="email"
               className="form-control"
@@ -46,7 +46,7 @@ class SignIn extends Component {
             />
           </div>
           <div className="form-group">
-            <label htmlFor="password">Enter Password</label>
+            <label htmlFor="password">Password</label>
             <input
               type="password"
               className="form-control"
@@ -55,7 +55,7 @@ class SignIn extends Component {
             />
           </div>
           <button type="submit" className="btn btn-primary">
-            SignIn
+            Sign In
           </button>
         </form>
         </>

@@ -7,9 +7,8 @@ const NavBar = () => {
   return (
     <>
       <nav className="navbar navbar-light bg-light d-flex justify-content-center">
-        <Link to="/" className="navbar-brand">
-          <h3>TodoApp</h3>
-        </Link>
+        {/* <Link to="/" className="navbar-brand">
+        </Link> */}
         <NavItems />
       </nav>
     </>
