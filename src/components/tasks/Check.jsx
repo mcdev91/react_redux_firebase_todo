@@ -11,14 +11,16 @@ const Check = ({ checked, onClick }) => {
         }}
         onClick={onClick}
       >
-        check_circle_outline
       </span>
     );
   } else {
     return (
       <span
         className="material-icons text-muted"
-        style={{ cursor: "pointer" }}
+        style={{
+          cursor: "pointer",
+          outline: "none"
+        }}
         onClick={onClick}
       >
         check_circle_outline
